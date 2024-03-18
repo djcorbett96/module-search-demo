@@ -3,7 +3,7 @@ import { Config } from "tailwindcss";
 const { ComponentsContentPath } = require("@yext/search-ui-react");
 
 module.exports = {
-  content: ["./**/*.{ts,tsx}", "./**/*.{js,jsx}", ComponentsContentPath],
+  content: ["*.{ts,tsx}", "./**/*.{js,jsx}", ComponentsContentPath],
   theme: {
     extend: {
       colors: {
