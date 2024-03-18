@@ -1,8 +1,8 @@
-import type { Config } from "tailwindcss";
+import { Config } from "tailwindcss";
 
 const { ComponentsContentPath } = require("@yext/search-ui-react");
 
-export default {
+module.exports = {
   content: ["./**/*.{ts,tsx}", "./**/*.{js,jsx}", ComponentsContentPath],
   theme: {
     extend: {
