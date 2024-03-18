@@ -19,10 +19,6 @@ const searchConfig: HeadlessConfig = {
 
 export const Search: Module = () => {
   const searcher = provideHeadless(searchConfig);
-  const location = window.location;
-  const parent = window.parent.location;
-  console.log(location);
-  console.log(parent);
 
   return (
     <SearchHeadlessProvider searcher={searcher}>
