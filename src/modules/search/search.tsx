@@ -24,6 +24,7 @@ export const Search: Module = () => {
     <SearchHeadlessProvider searcher={searcher}>
       <SearchBar placeholder="Search..." />
       <UniversalResults verticalConfigMap={{}} />
+      <div className="h-52 w-52 bg-black text-red-100">Search</div>
     </SearchHeadlessProvider>
   );
 };
