@@ -5,6 +5,7 @@ import {
   provideHeadless,
 } from "@yext/search-headless-react";
 import { SearchBar, UniversalResults } from "@yext/search-ui-react";
+import "./index.css";
 
 export const config: ModuleConfig = {
   name: "search",
