@@ -23,8 +23,10 @@ export const Search: Module = () => {
 
   return (
     <SearchHeadlessProvider searcher={searcher}>
-      <SearchBar placeholder="Search..." />
-      <UniversalResults verticalConfigMap={{}} />
+      <div className="tailwind">
+        <SearchBar placeholder="Search..." />
+        <UniversalResults verticalConfigMap={{}} />
+      </div>
     </SearchHeadlessProvider>
   );
 };
